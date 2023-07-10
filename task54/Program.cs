@@ -7,6 +7,7 @@
 7 4 2 1
 9 5 3 2
 8 4 4 2*/
+
 using System;
 
 class Program
@@ -47,7 +48,7 @@ class Program
     {
         for (int j = 0; j < n; j++)
         {
-            array[i, j] = random.Next(0, 33); // Установите min и max, чтобы указать желаемый диапазон случайных чисел
+            array[i, j] = random.Next(-33, 33); // задаем min и max диапазона случайных чисел
         }
     }
 
